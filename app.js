@@ -27,5 +27,7 @@ app.get('/', (req, res) =>
 `),
 );
 
-app.listen(2000);
+app.listen(2000,()=>{
+	console.log("app is up and running sir.");
+});
 
